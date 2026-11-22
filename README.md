@@ -29,12 +29,12 @@ block, heal, win fanfare, lose dirge) with mute (M).
 
 ## How to run
 
-Open `index.html` in any modern browser (no build step, no network).
+Open `game/index.html` in any modern browser (no build step, no network).
 Or serve it locally:
 
 ```sh
 python3 -m http.server 8000
-# then open http://localhost:8000/
+# then open http://localhost:8000/game/
 ```
 
 ## Controls
@@ -47,10 +47,14 @@ python3 -m http.server 8000
 
 ## Files
 
-- `engine.js` — pure game logic (cards, bosses, combat, drafts); no DOM,
+- `game/engine.js` — pure game logic (cards, bosses, combat, drafts); no DOM,
   unit-tested headlessly with a 60-game self-play simulation
-- `ui.js` — canvas rendering, input, animation, sound
-- `index.html` — page shell
+- `game/ui.js` — canvas rendering, input, animation, sound
+- `game/index.html` — page shell
+- `main.ts` — hand-in program: copies `game/` and `screenshots/` to `/output`
+  and writes `dossier.json` via `vendor/makefun-game.ts`
+- `vendor/makefun-game.ts` — make.fun dossier library, unchanged from the kit
+- `screenshots/` — 4 real renders of the game (title, combat, draft, win)
 - `LICENSE` — MIT
 
 ## License
