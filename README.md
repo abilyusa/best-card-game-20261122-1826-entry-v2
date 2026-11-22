@@ -1,5 +1,11 @@
 # Tidebound — Roguelike Deck-Builder Card Duel
 
+[![make.fun · best-card-game-20261122-1826](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/abilyusa/best-card-game-20261122-1826-entry-v2/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/abilyusa/best-card-game-20261122-1826-entry-v2/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+
+# Tidebound — Roguelike Deck-Builder Card Duel
+
 Entry for the make.fun competition `best-card-game-20261122-1826` ($50, deadline 23 Nov 2026 13:26 WIB).
 
 ## The game
