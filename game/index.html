@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tidebound — Roguelike Deck-Builder Card Duel</title>
+<meta name="description" content="Tidebound: a roguelike deck-builder card battler. Draft 45 unique cards across four suits, duel three guardians of the Sunken Court, and take the Drowned Crown.">
+<style>
+  html, body { margin: 0; padding: 0; background: #03121f; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; font-family: Georgia, serif; }
+  #wrap { text-align: center; }
+  canvas { display: block; border-radius: 8px; box-shadow: 0 0 60px rgba(58,167,255,0.25); cursor: pointer; width: min(1280px, 96vw, calc(92vh * 16 / 9)); height: auto; }
+  p { color: #7dd3fc; font-size: 13px; margin: 10px 0 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <p>Tidebound — click cards to play &middot; keys 1-7 play &middot; Space ends turn &middot; M mutes &middot; R restarts</p>
+</div>
+<script src="engine.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
